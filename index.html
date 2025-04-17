@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#About">About</a>
+            <a href="#Skills">Skill</a>
+            <a href="#">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Sandeep Gupta</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm 2nd B.Tech Computer Science Student specializing Front-End Development with a strong foundation in
+                Data Structures, Algorithms and Problem-solving</p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/sandeep-gupta00001/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Sandeep-0001"><i class='bx bxl-github'></i></a>
+                <a href="mailto:mrsandeepg0001@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://leetcode.com/u/Sandeep_00001/"><i class='bx bx-link'></i></a>
+            </div>
+            <a href="#" class="btn-box">Download CV</a>
+        </div>
+
+    </section>
+
+    <section class="About" id="About">
+        <div class="about-img">
+            <img src="Image2.png">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <p>I am a passionate B.Tech Computer Science student with a strong foundation in core programming languages
+                like C, Python, and Java. Expertise in Data Structures & Algorithms (DSA) and a solid understanding of
+                web development fundamentals (HTML, CSS, JavaScript) and Building Skills in Full-Stack Development.
+                With a passion for learning and problem-solving, I am constantly enhancing my technical knowledge and
+                exploring innovative technologies. I am eager to apply my skills in real-world projects, contribute to
+                impactful solutions, and grow as a tech professional. Currently seeking internship opportunities or
+                collaborative projects to expand my experience and make meaningful contributions.
+                <br>
+                <br>
+                Let's connect and collaborate!
+            </p>
+            <a href="#" class="btn-box">Download CV</a>
+
+
+
+        </div>
+    </section>
+    <div class="divide"></div>
+
+    <section id="Skills">
+        <div class="sub-title">
+            <h1>My <span>Skills</span></h1>
+        </div>
+
+
+
+        <div class="skills-wrapper">
+            <div class="skill-container">
+                <div class="skill-label"><i style="color: rgb(217, 165, 44);" class='bx bxl-html5'></i>HTML</div>
+                <div class="progress-bar">
+                    <div class="progress-fill html" id="htmlBar">0%</div>
+                </div>
+            </div>
+            <div class="skill-container">
+                <div class="skill-label"><i class='bx bxl-c-plus-plus'></i> C Programming
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill css" id="cBar">0%</div>
+                </div>
+            </div>
+
+            <div class="skill-container">
+                <div class="skill-label"><i style="color: rgb(44, 61, 217);" class='bx bxl-css3'></i>CSS</div>
+                <div class="progress-bar">
+                    <div class="progress-fill css" id="cssBar">0%</div>
+                </div>
+            </div>
+
+            <div class="skill-container">
+                <div class="skill-label"><i style="color: rgb(214, 228, 28);" class='bx bxl-python'></i>Python</div>
+                <div class="progress-bar">
+                    <div class="progress-fill python" id="pythonBar">0%</div>
+                </div>
+            </div>
+
+            <div class="skill-container">
+                <div class="skill-label"><i style="color: rgb(217, 165, 44);" class='bx bxl-javascript'></i>JavaScript
+                </div>
+                <div class="progress-bar">
+                    <div class="progress-fill javascript" id="jsBar">0%</div>
+                </div>
+            </div>
+
+
+
+
+            <div class="skill-container">
+                <div class="skill-label"><i style="color: rgb(217, 165, 44);" class='bx bxl-java'></i>Java Core</div>
+                <div class="progress-bar">
+                    <div class="progress-fill javascript" id="javaBar">0%</div>
+                </div>
+            </div>
+        </div>
+        <div class="tools">
+            <h2> Development Tools</h2>
+            <div class="tools-wrapper">
+
+                <div class="tool-skill">
+                    <svg width="150" height="150">
+                        <circle class="bg" cx="75" cy="75" r="70" />
+                        <circle class="progress" id="gitCircle" cx="75" cy="75" r="70" />
+                    </svg>
+                    <div class="percentage" id="gitPercent">0%</div>
+                    <div class="label"><i class='bx bxl-git'></i> Git</div>
+                </div>
+
+                <div class="tool-skill">
+                    <svg width="150" height="150">
+                        <circle class="bg" cx="75" cy="75" r="70" />
+                        <circle class="progress" id="githubCircle" cx="75" cy="75" r="70" />
+                    </svg>
+                    <div class="percentage" id="githubPercent">0%</div>
+                    <div class="label"><i class='bx bxl-github'></i> GitHub</div>
+                </div>
+
+                <div class="tool-skill">
+                    <svg width="150" height="150">
+                        <circle class="bg" cx="75" cy="75" r="70" />
+                        <circle class="progress" id="vscodeCircle" cx="75" cy="75" r="70" />
+                    </svg>
+                    <div class="percentage" id="vscodePercent">0%</div>
+                    <div class="label"><i class='bx bxl-visual-studio'></i> VS Code</div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="Contact" id="Contact">
+        <div class="content-text">
+            <h2>Contact<span>Me</span></h2>
+            <h4>Let's Work Together</h4>
+            <p>" I'm currently seeking internship opportunities where I can contribute, learn, and grow as a developer.
+                If you have a project, opportunity, or just want to connect, I'm always open to discussing new projects,
+                creative ideas, or opportunities to be part of our vision. Feel Free to drop me a message! "</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i> mrsandeepg0001@gmail.com</li>
+                <li><i class='bx bxs-phone'></i> 8791974688</li>
+            </div>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/sandeep-gupta00001/"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Sandeep-0001"><i class='bx bxl-github'></i></a>
+                <a href="mailto:mrsandeepg0001@gmail.com"><i class='bx bxl-gmail'></i></a>
+                <a href="https://leetcode.com/u/Sandeep_00001/"><i class='bx bx-link'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form id="contactForm" method="post">
+                <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                <input type="text" id="email" name="email"  placeholder="Enter Your Email" required>
+                <input type="text" id="subject" name="subject" placeholder="Enter Your Subject" required>
+                <textarea  id="message" name="message" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" name="submit" value="submit" class="send">
+                <div id="spinner" style="display: none;">
+                    <div class="loader"></div>
+                  </div>
+                  
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2025 Sandeep. All rights reserved.</p>
+    </footer>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
