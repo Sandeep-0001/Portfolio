@@ -80,6 +80,10 @@ body {
 .home-content p {
   font-size: 20px;
 }
+.home-content sup{
+  font-size: 10px;
+
+}
 
 .home-sci a {
   display: inline-flex;
