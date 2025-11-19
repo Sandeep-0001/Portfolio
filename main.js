@@ -28,7 +28,7 @@ document.getElementById('contactForm').addEventListener('submit', e => {
 
 
 var typed = new Typed(".text", {
-  strings: ["Frontend Developer", "B.Tech CS Student", "Web Developer"],
+  strings: ["Full Stack Developer", "B.Tech CS Student", "Web Developer"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
