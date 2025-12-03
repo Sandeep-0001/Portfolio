@@ -191,9 +191,9 @@ body {
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
-  max-width: 900px;
-  margin: 0 auto 40px auto;
+  gap: 24px; /* Increased gap for better spacing */
+  max-width: 1200px; /* Increased max width */
+  margin: 0 auto 60px auto; /* Adjusted bottom margin */
   justify-content: center;
 }
 
@@ -206,9 +206,12 @@ body {
   background: transparent;
   border-radius: 12px;
   overflow: visible;
-  width: 70px;
-  min-height: 70px;
+  width: 100px; /* Increased width */
+  min-height: 100px; /* Increased height */
   position: relative;
+  border: 2px solid #0ef; /* Added border for better visibility */
+  padding: 10px; /* Added padding */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .skill-icon {
@@ -219,9 +222,14 @@ body {
 }
 
 .skill-item span {
-  font-size: 12px;
-  font-weight: 500;
+  font-size: 14px; /* Increased font size */
+  font-weight: 600; /* Made text bolder */
   margin-top: 6px;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #0ef;
 }
 
 .skill-item:hover .skill-icon {
@@ -459,6 +467,19 @@ form textarea {
   .contact-form form input,
   .contact-form form textarea {
     width: 100%;
+  }
+
+  .skills-grid {
+    gap: 16px; /* Adjusted gap for smaller screens */
+  }
+
+  .skill-item {
+    width: 80px; /* Reduced size for smaller screens */
+    min-height: 80px;
+  }
+
+  .skill-item span {
+    font-size: 12px; /* Adjusted font size */
   }
 }
 
