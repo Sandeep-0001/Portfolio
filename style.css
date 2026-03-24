@@ -379,6 +379,8 @@ form textarea {
   width: 100%;
   height: 180px;
   object-fit: cover;
+  object-position: top center;
+  aspect-ratio: 16 / 9;
   border-radius: 8px;
   margin-bottom: 18px;
 }
@@ -426,12 +428,13 @@ form textarea {
     gap: 16px;
   }
   .portfolio-item {
-    width: 95vw;
+    width: min(94vw, 420px);
     min-height: 220px;
-    padding: 12px 4px;
+    padding: 14px 10px;
   }
   .portfolio-img {
-    height: 80px;
+    height: auto;
+    min-height: 160px;
   }
 }
 @media (max-width: 992px) {
