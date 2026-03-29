@@ -50,7 +50,7 @@ body {
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  background-image: url("Image.png");
+  background-image: url("image.png");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -172,7 +172,7 @@ body {
   color: #0ef;
 }
 
-.sub-title h1 {
+.sub-title h2 {
   margin-top: 40px;
   margin-bottom: 90px;
   text-align: center;
